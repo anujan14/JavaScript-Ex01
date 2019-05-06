@@ -1,0 +1,84 @@
+<html>
+<body>
+  //QUESTION 01:
+<p id="demo"></p>
+<script>
+var x=5;
+document.getElementById("demo").innerHTML=x**2;
+</script>
+
+<hr>
+
+  //QUESTION 02:
+<p id="add"</p>
+<p id="mul"</p>
+<p id="mgy"</p>
+<p id="dvd"</p>
+
+<script>
+var num1;
+var num2;
+function addNum(num1,num2){
+return num1+num2;
+ }
+ function multiNum(num1,num2){
+  return num1*num2;
+ }
+ function subtractNum(num1,num2){
+   return num1-num2;
+ }
+ function divide(num1,num2){
+   return num1/num2;
+ }
+ document.getElementById("add").innerHTML ="the addition of the two numbers is"+" "+ addNum(5,5);
+ document.getElementById("mul").innerHTML ="the multiplication of the two numbers is"+" "+ multiNum(5,5);
+ document.getElementById("mgy").innerHTML ="the subtraction of the two numbers is"+" "+ subtractNum(50,20);
+ document.getElementById("dvd").innerHTML ="the division of the two numbers is"+" "+ divide(100,50);
+
+</script>
+
+<hr>
+
+//QUESTION 03:
+<button onclick="alert('hello world')">click me</button>
+
+<hr>
+
+//QUESTION 04:
+<p id="demo1"></p>
+<script>
+var length;
+var width;
+var height;
+
+function calculatevolume(length,width,height){
+  return length*width*height;
+}
+document.documentgetElementById("demo1").innerHTML=calculate(5,4,2);
+</script>
+
+<hr>
+
+
+  //QUESTION 05:
+  <p id="demo22"> </p>
+<script>
+var person={
+firstname:"nimal",
+lastname:"raj",
+age:15,
+city:"kandy"};
+document.getElementById("demo22").innerHTML="my name is"+" "+person.firstname+" "+person.lastname +"."+"I'am"+" "+person.age+"  "+"years old."+"I live an"+" "+person.city+".";
+</script>
+
+<hr>
+  //QUESTION 06:
+  <p id="demo3"></p>
+  <script>
+  var course={courseName:"BIT",courseFee:"RS 150 000",startDate:"12.06.2018",center:"Our Office"};
+  document.getElementById("demo3").innerHTML="course Name:"+" "+course.courseName+"<br>"+"course Fee:"+" "+course.courseFee
+  +"<br>"+"start Date:"+" "+ course.startDate+"<br>"+"center:" + " " + course.center;
+  </script>
+
+</body>
+</html>
